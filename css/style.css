@@ -1,0 +1,306 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FEFEFE; }
+
+/* ------------ FRONT SEC -------------- */
+.front-sec {
+  width: 100%;
+  height: 120vh;
+  position: relative; }
+  .front-sec__nav {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    color: #FEFEFE; }
+    .front-sec__nav-logo {
+      margin-right: 40%;
+      font-size: 2.3rem; }
+    .front-sec__nav-menu1 {
+      display: flex;
+      margin-right: 15%;
+      list-style: none;
+      font-size: 1.2rem; }
+      .front-sec__nav-menu1-item {
+        margin-right: 4rem; }
+        .front-sec__nav-menu1-item:last-child {
+          margin-right: 0; }
+    .front-sec__nav-menu2 {
+      display: flex;
+      list-style: none;
+      font-size: 1.2rem; }
+      .front-sec__nav-menu2-item {
+        margin-top: -.5rem;
+        font-weight: 600;
+        color: #000;
+        margin-right: 4rem;
+        padding: .5rem 2.5rem;
+        border: 1.5px solid #000;
+        border-radius: 30px; }
+        .front-sec__nav-menu2-item:last-child {
+          margin-right: 0;
+          color: #D0011B;
+          border-color: #D0011B; }
+  .front-sec__cookies {
+    position: absolute;
+    top: 10rem;
+    right: 3rem;
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+    .front-sec__cookies-para {
+      position: absolute;
+      left: 10%;
+      top: 25%;
+      width: 80%;
+      text-align: center; }
+      .front-sec__cookies-para span {
+        font-weight: 600;
+        text-decoration: underline; }
+    .front-sec__cookies-button {
+      text-decoration: none;
+      position: absolute;
+      color: inherit;
+      font-weight: 600;
+      top: 61%;
+      left: 22%;
+      padding: .5rem 2rem;
+      border: 1px solid #000;
+      border-radius: 30px; }
+  .front-sec__hero {
+    position: absolute;
+    z-index: -1;
+    top: -3rem;
+    left: 0;
+    -webkit-clip-path: circle(80% at 28% 40%);
+    clip-path: circle(80% at 28% 40%);
+    background-color: #D0011B;
+    color: #fefefe;
+    width: 74%;
+    height: 90vh; }
+    .front-sec__hero-head {
+      position: absolute;
+      top: 25%;
+      left: 12%;
+      font-size: 6rem;
+      font-weight: 300; }
+    .front-sec__hero-info1 {
+      position: absolute;
+      bottom: 15.5rem;
+      left: 12%;
+      width: 10rem; }
+      .front-sec__hero-info1-head {
+        margin-bottom: 1rem; }
+    .front-sec__hero-info2 {
+      position: absolute;
+      bottom: 15.5rem;
+      left: 30%;
+      width: 12rem; }
+      .front-sec__hero-info2-head {
+        margin-bottom: 1rem; }
+  .front-sec__screen {
+    width: 60%;
+    position: absolute;
+    bottom: 10rem;
+    right: 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+
+/* ------------- SEC ONE ------------- */
+.sec-one {
+  margin: 5rem 0;
+  height: 100vh;
+  position: relative; }
+  .sec-one__head {
+    font-size: 6rem;
+    font-weight: 300;
+    margin-left: 8%;
+    margin-bottom: 5rem;
+    width: 60%; }
+  .sec-one__para {
+    font-size: 1.6rem;
+    width: 25%;
+    margin-left: 8%;
+    margin-bottom: 20rem; }
+  .sec-one__descbox {
+    margin-left: 8%;
+    width: 8%; }
+    .sec-one__descbox-head {
+      margin-bottom: 1rem; }
+    .sec-one__descbox-desc {
+      line-height: 1.2; }
+  .sec-one__screen {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 10rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+  .sec-one__glass {
+    position: absolute;
+    top: 61%;
+    right: 20%;
+    z-index: 10;
+    height: 2px;
+    width: 60%;
+    background-color: #D0011B;
+    margin-left: 15px; }
+    .sec-one__glass::before {
+      position: absolute;
+      left: -5px;
+      top: -1.7px;
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #D0011B; }
+    .sec-one__glass::after {
+      position: absolute;
+      right: -5rem;
+      top: -2.5rem;
+      content: '';
+      width: 5rem;
+      height: 5rem;
+      border: 2px solid red;
+      border-radius: 50%;
+      background-color: rgba(255, 0, 0, 0.116); }
+
+/* ------------- SEC TWO ------------- */
+.sec-two {
+  width: 100%;
+  height: 75vh;
+  margin-bottom: 20rem;
+  position: relative; }
+  .sec-two__head {
+    font-size: 6rem;
+    font-weight: 300;
+    margin-left: 8%;
+    margin-bottom: 5rem;
+    width: 60%; }
+  .sec-two__para {
+    font-size: 1.6rem;
+    width: 25%;
+    margin-left: 8%; }
+  .sec-two__screen {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: -7rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+
+/* ------------- SEC TWO ------------- */
+.sec-plans {
+  width: 84%;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex; }
+  .sec-plans__left-head {
+    font-size: 6rem;
+    font-weight: 300; }
+  .sec-plans__right {
+    width: 60%;
+    margin-top: 3.5rem;
+    margin-left: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 15rem); }
+    .sec-plans__right-pricing {
+      width: 80%;
+      padding-top: 1.5rem;
+      height: 15rem;
+      border-top: 1px solid #D0011B; }
+      .sec-plans__right-pricing-desc {
+        font-size: 1.6rem;
+        border-top: 1px solid #D0011B;
+        padding-top: 10px; }
+      .sec-plans__right-pricing-price {
+        font-size: 6rem;
+        font-weight: 300;
+        border-top: 1px solid #D0011B;
+        position: relative; }
+        .sec-plans__right-pricing-price .price-desc {
+          position: absolute;
+          left: 85px; }
+        .sec-plans__right-pricing-price .euro {
+          position: absolute;
+          left: -35px;
+          top: 0px;
+          color: #D0011B; }
+        .sec-plans__right-pricing-price .spanning {
+          color: #D0011B;
+          position: absolute;
+          left: 0; }
+        .sec-plans__right-pricing-price span {
+          position: absolute;
+          font-size: 1.6rem;
+          top: 15px;
+          left: 50px; }
+        .sec-plans__right-pricing-price .last-span {
+          position: absolute;
+          left: 80px;
+          color: red; }
+
+/* ------------- FOOTER ---------------- */
+.footer {
+  width: 100%;
+  height: 70vh;
+  margin-top: 20rem;
+  padding: 7rem;
+  background-color: #D0011B;
+  color: #fff;
+  -webkit-clip-path: ellipse(53% 85% at 50% 100%);
+  clip-path: ellipse(53% 85% at 50% 100%);
+  position: relative; }
+  .footer__btn:link, .footer__btn:visited {
+    display: block;
+    width: 20rem;
+    text-align: center;
+    margin: 8rem auto 4rem auto;
+    color: #FEFEFE;
+    font-size: 2.2rem;
+    text-decoration: none;
+    padding: 2rem 4rem;
+    border: 1.5px solid #FEFEFE;
+    border-radius: 40px;
+    transition: all .5s; }
+  .footer__btn:hover, .footer__btn:active {
+    background-color: #FEFEFE;
+    color: #D0011B;
+    border: 1.5px solid #D0011B;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+  .footer__desc {
+    text-align: center;
+    font-size: 1.4rem; }
+  .footer__nav {
+    position: absolute;
+    bottom: 4rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between; }
+  .footer__menu1 {
+    display: flex;
+    list-style: none; }
+    .footer__menu1-item {
+      margin-right: 2rem; }
+      .footer__menu1-item:last-child {
+        margin-right: 0; }
+  .footer__menu2 {
+    display: flex;
+    list-style: none; }
+    .footer__menu2-item {
+      margin-right: 2rem; }
+      .footer__menu2-item:last-child {
+        margin-right: 0; }
